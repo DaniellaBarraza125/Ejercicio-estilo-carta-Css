@@ -1,0 +1,128 @@
+* {
+    /*
+    padding: 0;
+    line-height: 1.7;
+    box-sizing: border-box;*/
+    text-decoration: none;
+    
+    margin: 0;
+}
+/*body {
+    font-family: "Jim Nightshade", cursive
+    
+}*/
+
+.contenedor {
+    background-image:url(/pergamena-graziano.jpg);
+    width: 700px;   
+    background-size: contain;
+    margin-left: 250px;
+    text-align: justify;
+    padding: 200px 200px 100px 180px;
+    font-family: "UnifrakturMaguntia", "Mr Bedford" ;
+      
+}
+
+.initialaddress {
+    position: relative;
+    text-align: right;
+}
+#names {
+    font-style: italic; 
+    font-weight: 600;
+}
+.firma {
+    font-style: italic;
+    font-size: 40px;
+}
+h1 {
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+    text-decoration: underline;
+    word-spacing: 20px;
+}
+h2{
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+p  {
+    font-size: 18px;
+}
+
+ul {
+    width: 150px;    
+    font-size: 20px;
+    border: solid 1px;
+    padding: 0px 40px;
+    margin: 40px 160px 40px 200px;
+    hyphens: auto;
+    float: center;
+    opacity: 0;
+    }
+
+ul:hover {
+    transform: scale(1, 1);
+    margin: 5px 100px 5px 150px;
+    width: 250px;
+    height: 150px;
+    font-size: 25px;
+    transition: 1s ease;
+    background-color: rgb(252, 207, 226);
+    opacity: 100%;
+    border-bottom: solid 7px rgb(197, 155, 172);
+    border-right: solid 7px rgb(197, 155, 172);
+    border-radius: 20px;
+    border-top: none;
+    border-left: none;
+  
+}
+em, abbr, sub {
+    color: black;
+}
+ol {
+    color: rgb(156, 100, 16);
+    margin: 0;
+   }
+
+   dl {
+    margin-right: 70px;
+}
+dt {
+    font-style: bold;
+    font-size: 20px;
+}
+dd {
+    font-size: 18px;
+}
+
+p::first-letter {
+    color: brown;
+    font-size: 50px;   
+    vertical-align: text-bottom;
+
+}
+.segundapagina {
+    color: blueviolet;
+    margin-top: 500px;
+   
+    
+}
+#a {
+    quotes: "▲" "▲";
+    color: brown;
+  }
+  p.verticalt {
+    writing-mode: vertical-rl;
+    font-size: 23px;
+    padding: 20px;
+    text-decoration: underline;
+
+  }
+  .tvertical {
+    position: relative;
+    top:  480px;
+    left: 20px;
+    float: right;
+    }
+
