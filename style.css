@@ -49,6 +49,9 @@ h2{
 p  {
     font-size: 18px;
 }
+a {
+    color: rgb(18, 160, 68)
+    }
 
 ul {
     width: 150px;    
@@ -68,7 +71,7 @@ ul:hover {
     height: 150px;
     font-size: 25px;
     transition: 1s ease;
-    background-color: rgb(252, 207, 226);
+    background-color: rgba(241, 221, 229, 0.501);
     opacity: 100%;
     border-bottom: solid 7px rgb(197, 155, 172);
     border-right: solid 7px rgb(197, 155, 172);
@@ -114,15 +117,15 @@ p::first-letter {
   }
   p.verticalt {
     writing-mode: vertical-rl;
-    font-size: 23px;
+    font-size: 19px;
     padding: 20px;
     text-decoration: underline;
 
   }
   .tvertical {
     position: relative;
-    top:  480px;
-    left: 20px;
+    top:  470px;
+    left: 25px;
     float: right;
     }
 
